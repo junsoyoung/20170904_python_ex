@@ -1,0 +1,41 @@
+'''
+class FourCal:
+    def setData(self, first, second):
+        self.first = first
+        self.second = second
+
+    def sum(self):
+        self.result = self.first + self.second
+        return self.result
+
+    def mul(self):
+        return self.first * self.second
+
+    def sub(self):
+        return self.first - self.second
+
+    def div(self):
+        return self.first / self.second
+
+a = FourCal()
+a.setData( 10, 3 )
+
+print( a.sum())
+print( a.mul())
+print( a.sub())
+print( a.div())
+'''
+
+class HousePark():
+    lastname = "박"
+    def __init__(self, name):
+        self.fullname = self.lastname + name
+
+    def travel(self, where):
+        print("%s, %s" % ( self.fullname, where))
+
+
+pey = HousePark( "응용")
+pey.travel("부산")
+
+
